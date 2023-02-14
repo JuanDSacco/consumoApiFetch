@@ -9,6 +9,7 @@ const ItemDetail = ({data}) => {
             <h2>Precio: ${data.price}</h2>
             <p>Detalle del producto: {data.description}</p>
             <Link to={`/`}><button>Volver al inicio</button></Link>
+            <Link to={`/productos`}><button>Volver a Productos</button></Link>
         </div>
     )
 }

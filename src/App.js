@@ -1,10 +1,10 @@
 import './App.css';
-import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
-import ItemListContainer from './ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Home from './Home/Home';
+import Home from './components/Home/Home';
 
-function App() {
+function App(){
   return (
     <div className="App">
       <BrowserRouter>

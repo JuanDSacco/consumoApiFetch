@@ -1,0 +1,10 @@
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+.linkProd button li{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
